@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com html5</title>
+</head>
+<body>
+    <h1>inserindo videos hospedado localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+    <video poster="imagem/lancer-1234.jpg" src="midia/lancer.mp4" width="500" controls autoplay loop></video>
+    <!--devemos colocar todos os tipos compativeis para os navegadores
+    mp4 m4v webm ogv tamanho do video: width=valor controls para 
+aparecer o play-->
+<!--configurar desse modo o video o valor para o cliente sera caro
+devido a quantidade e mega por video-->
+
+<h1>inserindo videos do yutube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PgJ76lIBvlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!--recomendado usar esse modo para por videos caso o video estaje no youtube
+so compartilhar no youtube e incorporar no vscode-->
+<!--podemos colocar tambem o video pelo vimeo quando a gente quiser que o a pessoa assita so 
+o meu video -->
+<h1>videos com vimeo</h1>
+<iframe src="https://player.vimeo.com/video/746603888?h=4dd36156b9" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
