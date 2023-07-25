@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+color: white;
+background-color: rgb(0, 0, 0);
+text-align: center;
+padding-top: 50px;
+font-variant: small-caps;
+padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1em;
+    padding-left: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+section.universo {
+    background-image:url('imagens/universo-1.jpg');
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
