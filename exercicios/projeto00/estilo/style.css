@@ -1,16 +1,33 @@
 @charset "UTF-8";
 
+* {
+    margin: auto;
+}
+
 html, body {
     min-height: 100vh;
 }
 
+body {
+    background-image: url('../imagens/universo-1.jpg');
+}
+
 header {
 color: white;
-background-color: rgb(0, 0, 0);
 text-align: center;
 padding-top: 50px;
 font-variant: small-caps;
 padding-bottom: 50px;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+nav>a {
+    
+    margin-left: 30px;
 }
 
 section {
@@ -20,13 +37,14 @@ section {
     padding-left: 30px;
 }
 
+
+
 p {
-    text-align: justify;
+    text-align: center;
+    color: white;
+    
 }
 
-section.universo {
-    background-image:url('imagens/universo-1.jpg');
-}
 
 a {
     font-weight: bolder;
@@ -39,10 +57,10 @@ a:hover {
 }
 
 footer {
-    background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer p {
